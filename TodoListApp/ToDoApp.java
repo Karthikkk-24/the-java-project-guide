@@ -28,7 +28,7 @@ public class ToDoApp {
 				case 2:
 					System.out.println("Enter the task number to remove: ");
 					int removeIndex = sc.nextInt() - 1;
-					toDoList.removeTask(removeindex);
+					toDoList.removeTask(removeIndex);
 					break;
 				case 3:
 					System.out.println("Enter the task number to mark as complete: ");
